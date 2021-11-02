@@ -73,7 +73,7 @@ def hero():
     while(y):
         clear()
         system(banner)
-        "/data/data/com.termux/files/home/./BCX"
+        print ("contact me on telegram @rohisurya") 
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
@@ -167,4 +167,4 @@ else:
     banner='figlet RXCE'
     system(banner)
     print("Your hack has expired--- Please contact")
-    print(" on telegram -----------@rohisurya)
+    print(" on telegram -----------@rohisurya")
