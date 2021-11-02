@@ -126,7 +126,7 @@ def hero():
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @rohisurya")
             #print(numbers)
-
+           banner='figlet rohisurya'
 
 if(expirydate>today):
     now = datetime.datetime.now()
