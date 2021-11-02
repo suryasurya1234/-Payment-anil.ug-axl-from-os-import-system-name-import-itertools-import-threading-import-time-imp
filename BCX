@@ -73,7 +73,7 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("hello world")
+        "/data/data/com.termux/files/home/./BCX"
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
