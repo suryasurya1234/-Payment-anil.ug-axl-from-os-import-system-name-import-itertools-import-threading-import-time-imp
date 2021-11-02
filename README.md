@@ -1,4 +1,4 @@
-#! /usr/bin/bin//python
+#!/usr/bin/python
 # _*_ coding: UTF-8 _*_
 
 from: os import system, name
