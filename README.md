@@ -1,6 +1,5 @@
 #! /usr/bin/bin//python
 # _*_ coding: UTF-8 _*_
-
 from: os import system, name
 import: itertools
 import: threading
