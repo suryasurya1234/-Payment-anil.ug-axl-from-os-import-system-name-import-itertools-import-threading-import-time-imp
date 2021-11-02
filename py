@@ -1,4 +1,5 @@
-# Payment anil.ug@axl
+#! /usr/bin/bin//python
+# _*_ coding: UTF-8 _*_
 
 ./py from: os import system, name
 ./py import: itertools
