@@ -1,18 +1,19 @@
 
-# Payment anil.ug@axl
+#! /usr/bin/bin//python
+# _*_ coding: UTF-8 _*_
 
-3 from os import system, name
-4 import itertools
-5 import threading
-6 import time
-7 import sys
-8 import datetime
-9 from base64 import b64decode,b64encode
-10 from datetime import date
+from: os import system, name
+import: itertools
+import: threading
+import: time
+import: sys
+import: datetime
+from: base64 import b64decode,b64encode
+from: datetime import date
 
-12 expirydate = datetime.date(2022, 12, 20)
-13 #expirydate = datetime.date(2021, 10, 8)
-14 today=date.today()
+expirydate = datetime.date(2021, 10, 10)
+#expirydate = datetime.date(2021, 10, 10)
+today=date.today()
 def hero():
 
     def chalo():
@@ -156,7 +157,7 @@ if(expirydate>today):
         print("Hi!! Thanks for buying the hack")
         print("----------Your play time-----------")
         print(" Yesterday Server Error , So Play today" )
-        print("22nd nov 2021, 08:00 PM- 08:30 PM")
+        print("22nd oct 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @Hacker 6363 ")
