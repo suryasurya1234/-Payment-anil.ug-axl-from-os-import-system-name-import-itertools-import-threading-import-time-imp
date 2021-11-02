@@ -73,7 +73,7 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram ")
+        
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
