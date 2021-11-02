@@ -1,4 +1,3 @@
-
 # Payment anil.ug@axl
 
 from os import system, name
