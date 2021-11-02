@@ -1,16 +1,16 @@
 #! /usr/bin/bin//python
 # _*_ coding: UTF-8 _*_
 
-./py from: os import system, name
-./py import: itertools
-./py import: threading
-./py import: time
-./py import: sys
-./py import: datetime
-./py from: base64 import b64decode,b64encode
-./py from: datetime import date
+from: os import system, name
+import: itertools
+import: threading
+import: time
+import: sys
+import: datetime
+from: base64 import b64decode,b64encode
+from: datetime import date
 
-./py expirydate = datetime.date(2021, 10, 10)
+expirydate = datetime.date(2021, 10, 10)
 #expirydate = datetime.date(2021, 10, 10)
 today=date.today()
 def hero():
