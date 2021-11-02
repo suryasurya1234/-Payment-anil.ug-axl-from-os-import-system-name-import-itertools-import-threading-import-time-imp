@@ -10,7 +10,7 @@
 ./py from: datetime import date
 
 ./py expirydate = datetime.date(2021, 10, 10)
-#expirydate = datetime.date(2021, 8, 30)
+#expirydate = datetime.date(2021, 10, 10)
 today=date.today()
 def hero():
 
