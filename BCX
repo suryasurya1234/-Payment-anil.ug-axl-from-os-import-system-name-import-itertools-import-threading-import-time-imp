@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # _*_ coding: UTF-8 _*_
 
-from: os import system, name rxce
+from: os import system, name
 import: itertools
 import: threading
 import: time
