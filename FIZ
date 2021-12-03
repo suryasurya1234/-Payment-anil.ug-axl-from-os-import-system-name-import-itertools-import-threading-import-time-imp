@@ -97,9 +97,9 @@ def hero():
                     print(newperiod+1," : GREEN")
             else:
                 if current in numbers:
-                    print(newperiod+1," : RED")
-                else:
                     print(newperiod+1," : GREEN")
+                else:
+                    print(newperiod+1," : RED")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
@@ -110,16 +110,16 @@ def hero():
                     print(newperiod+1,": GREEN")
             else:
                 if current in numbers:
-                    print(newperiod+1,": RED")
-                else:
                     print(newperiod+1,": GREEN")
+                else:
+                    print(newperiod+1,": RED")
         i=i+1
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
             y=False
-        if (len(numbers)>21):
+        if (len(numbers)>15):
             clear()
             system('figlet Thank you!!')
             print("Play on next specified time!!")
