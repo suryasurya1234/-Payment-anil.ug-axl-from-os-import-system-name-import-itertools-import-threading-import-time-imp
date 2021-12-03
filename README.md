@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram RXCE_HACKER")
-        print("Enter ",newperiod," Bcone Price :")
+        print("Enter ",newperiod," Emerd Number :")
         current=input()
         current=int(current)
         chalo()
