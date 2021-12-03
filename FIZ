@@ -97,9 +97,9 @@ def hero():
                     print(newperiod+1," : GREEN")
             else:
                 if current in numbers:
-                    print(newperiod+1," : GREEN")
-                else:
                     print(newperiod+1," : RED")
+                else:
+                    print(newperiod+1," : GREEN")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
@@ -110,16 +110,16 @@ def hero():
                     print(newperiod+1,": GREEN")
             else:
                 if current in numbers:
-                    print(newperiod+1,": GREEN")
-                else:
                     print(newperiod+1,": RED")
+                else:
+                    print(newperiod+1,": GREEN")
         i=i+1
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
             y=False
-        if (len(numbers)>11):
+        if (len(numbers)>21):
             clear()
             system('figlet Thank you!!')
             print("Play on next specified time!!")
@@ -158,8 +158,8 @@ if(expirydate>today):
         banner='figlet RXCE'
         print("Hi!! 🤑Thanks for buying the hack🤑")
         print("----------⌛Your play time⌛----------")
-        print("19  Dec 2021, 11:00 PM- 11:30 PM")
-        print("19  Dec 2021, 02:00 PM- 02:30 PM")
+        print("19  Dec 2021, 09:00 AM- 09:30 AM")
+        print("19  Dec 2021, 11:00 AM- 11:30 AM")
         print("19  Dec 2021, 05:30 PM- 06:00 PM")
         print("19  Dec 2021, 12:00 PM- 12:30 PM")
         print("Please play on the given time, and ")
