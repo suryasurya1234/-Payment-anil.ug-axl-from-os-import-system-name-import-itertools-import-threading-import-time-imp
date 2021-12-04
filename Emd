@@ -148,20 +148,20 @@ if(expirydate>today):
             period=193
             hero()
     elif(False):
-            period=286
+            period=340
             hero()
     elif(True):
-            period=320
+            period=350
 
             hero()
     else:
         banner='figlet RXCE'
         print("Hi!! 🤑Thanks for buying the hack🤑")
         print("----------⌛Your play time⌛----------")
-        print("19  Dec 2021, 12:00 PM- 12:30 PM")
-        print("19  Dec 2021, 02:00 PM- 02:30 PM")
-        print("19  Dec 2021, 05:30 PM- 06:00 PM")
-        print("19  Dec 2021, 04:00 PM- 04:30 PM")
+        print("04  Dec 2021, 08:00 PM- 08:30 PM")
+        print("04  Dec 2021, 02:00 PM- 02:30 PM")
+        print("04  Dec 2021, 05:00 PM- 05:30 PM")
+        print("04  Dec 2021, 04:00 PM- 04:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
