@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram RXCE_HACKER")
-        print("Enter ",newperiod," SAPRE Price :")
+        print("Enter ",newperiod," EMERD Price :")
         current=input()
         current=int(current)
         chalo()
@@ -142,13 +142,13 @@ if(expirydate>today):
     Finalend = now.replace(hour=17, minute=35, second=0, microsecond=0)
 
     if (False):
-            period=251
+            period=0
             hero()
     elif(False):
-            period=193
+            period=0
             hero()
     elif(False):
-            period=340
+            period=0
             hero()
     elif(True):
             period=0
