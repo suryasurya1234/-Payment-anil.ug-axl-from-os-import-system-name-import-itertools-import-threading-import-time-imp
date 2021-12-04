@@ -10,7 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 12, 28)
+expirydate = datetime.date(2022, 12, 28)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -151,17 +151,17 @@ if(expirydate>today):
             period=340
             hero()
     elif(True):
-            period=350
+            period=0
 
             hero()
     else:
         banner='figlet RXCE'
         print("Hi!! 🤑Thanks for buying the hack🤑")
         print("----------⌛Your play time⌛----------")
-        print("04  Dec 2021, 08:00 PM- 08:30 PM")
-        print("04  Dec 2021, 02:00 PM- 02:30 PM")
-        print("04  Dec 2021, 05:00 PM- 05:30 PM")
-        print("04  Dec 2021, 04:00 PM- 04:30 PM")
+        print("04  Dec 2022, 08:00 PM- 08:30 PM")
+        print("04  Dec 2022, 02:00 PM- 02:30 PM")
+        print("04  Dec 2022, 05:00 PM- 05:30 PM")
+        print("04  Dec 2022, 04:00 PM- 04:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
