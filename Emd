@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram RXCE_HACKER")
-        print("Enter ",newperiod," Emerd Price :")
+        print("Enter ",newperiod," SAPRE Price :")
         current=input()
         current=int(current)
         chalo()
@@ -161,14 +161,14 @@ if(expirydate>today):
         print("04  Dec 2022, 08:00 PM- 08:30 PM")
         print("04  Dec 2022, 02:00 PM- 02:30 PM")
         print("04  Dec 2022, 05:00 PM- 05:30 PM")
-        print("04  Dec 2022, 04:00 PM- 04:30 PM")
+        print("04  Dec 2022, 06:00 PM- 06:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
         ("Channel join krle bhosdke😁 @RXCE_HACKER")
         print( "Msg me on telegram @RXCE_HACKER")
         banner='figlet RXCE_HACKER'
-        print("play at your own risk please don't blame owner on any loss")
+       
       
 else:
     banner='figlet RXCE'
