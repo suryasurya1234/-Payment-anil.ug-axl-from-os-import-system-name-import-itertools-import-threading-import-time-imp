@@ -141,7 +141,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=270
+            period=310
             hero()
     elif(False):
             period=280
@@ -158,7 +158,7 @@ if(expirydate>today):
         print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
         print(" Dec 2021, 11:00 AM- 11:30 AM")
-        print(" Dec 2021, 01:00 PM- 01:30 PM")
+        print(" Dec 2021, 03:30 PM- 04:30 PM")
         print(" Dec 2021, 05:30 PM- 06:00 PM")
         print(" Dec 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
