@@ -118,7 +118,7 @@ def hero():
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
             y=False
-        if (len(numbers)>11):
+        if (len(numbers)>31):
             clear()
             system('figlet Thankyou‘!!')
             print("Play on next specified time‘!!")
@@ -140,23 +140,18 @@ if(expirydate>today):
     Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
-    if (True):
-            period=0
-            hero()
+
     elif(now>First and now<Firstend):
             period=0
             hero()
     elif(now>Third and now<Thirdend):
             period=0
             hero()
-    elif(False):
-            period=0
-            hero()
     else:
-        banner='figlet RXCE'
+        banner='figlet RXCE 6.o'
         print("Hi!! ‘Thanks for buying the hack‘")
         print("----------›Your play time ----------")
-        print("9 Dec 2022 24 Hour's⌛")
+        print("9 Dec 2022 24 Hour's ⌛")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKING ")
@@ -165,7 +160,7 @@ if(expirydate>today):
 
 
 else:
-    banner='figlet RXCE'
+    banner='figlet RXCE 6.o'
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
