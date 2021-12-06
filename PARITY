@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram RXCE_HACKING")
-        print("Enter ",newperiod," Bcone Price :")
+        print("Enter ",now newperiod correct," Parity Price :")
         current=input()
         current=int(current)
         chalo()
@@ -91,27 +91,27 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : 🔴")
+                    print(newperiod+1," : Red 🔴")
                 else:
-                    print(newperiod+1," : 🟢")
+                    print(newperiod+1," : Green 🟢")
             else:
                 if current in numbers:
-                    print(newperiod+1," : 🟢")
+                    print(newperiod+1," : Green 🟢")
                 else:
-                    print(newperiod+1," : 🔴")
+                    print(newperiod+1," : Red 🔴")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and 2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": 🔴")
+                    print(newperiod+1,": Red 🔴")
                 else:
-                    print(newperiod+1,": 🟢")
+                    print(newperiod+1,": Green 🟢")
             else:
                 if current in numbers:
-                    print(newperiod+1,": 🟢")
+                    print(newperiod+1,": Green 🟢")
                 else:
-                    print(newperiod+1,": 🔴")
+                    print(newperiod+1,": Red 🔴")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -148,10 +148,10 @@ if(expirydate>today):
             period=0
             hero()
     else:
-        banner='figlet RXCE 6.o'
+        banner='figlet RXCE'
         print("Hi!! ‘Thanks for buying the hack‘")
         print("----------›Your play time ----------")
-        print("9 Dec 2022 24 Hour's ⌛")
+        print("9 Dec 2022 24 Hour's⌛ full hack correct colour")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKING ")
@@ -160,12 +160,12 @@ if(expirydate>today):
 
 
 else:
-    banner='figlet RXCE 6.o'
+    banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
     print(" on telegram ----@RXCE_HACKING for activating")
     print(" Recharge Amount :        Total limit " )
-    print(" 1.     1000 INR -------  7 Days (280 Games")
-    print(" 2.     2500 INR -------  30 Days(400 Games")
+    print(" 1.     1000 INR -------  7 Days (380 Games")
+    print(" 2.     2500 INR -------  30 Days(600 Games")
     print("*---------*----------*-------------*----------*")
