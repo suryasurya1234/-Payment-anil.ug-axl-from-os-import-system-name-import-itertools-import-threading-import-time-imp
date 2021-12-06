@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the Bcone server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the Sapre server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -141,32 +141,29 @@ if(expirydate>today):
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if (False):
-            period=271
+            period=280
             hero()
     elif(now>First and now<Firstend):
-            period=271
+            period=280
             hero()
     elif(False):
-            period=271
+            period=280
             hero()
     elif(True):
-            period=271
+            period=280
             hero()
     else:
-        banner='figlet RXCE V6'
+        banner='figlet RXCE V2'
         print("Hi!! 🤑Thanks for buying the hack🤑")
         print("----------⌛Your play time⌛----------")
-        print("9 Dec 2021, 11:00 AM- 11:30 AM")
-        print("9 Dec 2021, 01:30 PM- 02:30 PM")
-        print("9 Dec 2021, 05:42 PM- 08:00 PM")
-        #print("9 Dec 2021, 06:37 PM- 07:30 AM")
+        print("9 Dec 2022, 12:00 AM- 12:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @fixxerx ")
         (" Channel join krle bhosdke😁 @fixxerx ")
 
 else:
-    banner='figlet RXCE V6'
+    banner='figlet RXCE V2'
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
