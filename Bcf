@@ -156,7 +156,7 @@ if(expirydate>today):
         banner='figlet RXCE'
         print("Hi!! ‘Thanks for buying the hack‘")
         print("----------›Your play time ----------")
-        print("9 Dec 2021, 11:00 AM- 11:30 AM")
+        print("9 Dec 2021, 07:30 AM- 08:00 AM")
         print("9 Dec 2021, 08:00 PM- 08:30 PM")
         print("9 Dec 2021, 09:00 PM- 09:30 PM")
         #print("9 Dec 2021,12:00 PM- 12:30 PM")
@@ -174,7 +174,6 @@ else:
     print("Your hack has expired--- Please contact")
     print(" on telegram ----@RXCE_HACKING for activating")
     print(" Recharge Amount :        Total limit " )
-    print(" 1.     300 INR -------  1 Day (300 Games")
-    print(" 2.     2500 INR -------  10 Days(400 Games")
+    print(" 1.     1000 INR -------  7 Days (280 Games")
+    print(" 2.     2500 INR -------  30 Days(400 Games")
     print("*---------*----------*-------------*----------*")
-    print("Your custom hack can be made request from us.")
