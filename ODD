@@ -141,7 +141,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=23, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=20211207180
+            period=20211207194
             hero()
     elif(now>First and now<Firstend):
             period=280
@@ -160,7 +160,7 @@ if(expirydate>today):
         print("31st Dec 2021, 11:00 AM- 11:30 AM")
         print("31st Dec 2021, 02:00 PM- 02:30 PM")
         print("2nd Dec 2021, 05:00 PM- 05:30 PM")
-        print("31st Dec 2021, 09:00 PM- 09:30 PM")
+        print("31st Dec 2021, 09:10 PM- 10:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @rxcehack143 ")
