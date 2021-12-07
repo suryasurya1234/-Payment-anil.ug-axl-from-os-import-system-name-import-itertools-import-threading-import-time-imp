@@ -151,7 +151,7 @@ if(expirydate>today):
             hero()
     elif(True):
             period=0
-            hero(447)
+            hero()
     else:
         banner='figlet RXCE V2'
         print("Hi!! 🤑Thanks for buying the hack🤑")
