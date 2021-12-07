@@ -141,7 +141,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if (False):
-            period=20211207230
+            period=20211207260
             hero()
     elif(now>First and now<Firstend):
             period=0
@@ -156,8 +156,8 @@ if(expirydate>today):
         banner='figlet RXCE V2'
         print("Hi!! 🤑Thanks for buying the hack🤑")
         print("----------⌛Your play time⌛----------")
-        print("22 Dec 2022, 11:00 PM- 12:30 PM")
-        Print("22 Dec 2022, 08:00 Pm- 08:90 Pm")
+        print("22 Dec 2022, 01:00 PM- 01:30 PM")
+        Print("22 Dec 2022, 08:00 PM- 08:90 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @fixxerx ")
