@@ -140,8 +140,8 @@ if(expirydate>today):
     Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
-    if (True):
-            period=0
+    if (False):
+            period=450
             hero()
     elif(now>First and now<Firstend):
             period=340
@@ -149,7 +149,7 @@ if(expirydate>today):
     elif(False):
             period=210
             hero()
-    elif(False):
+    elif(True):
             period=20211207400
             hero()
     else:
@@ -157,7 +157,7 @@ if(expirydate>today):
         print("Hi!! 🤑Thanks for buying the hack🤑")
         print("----------⌛Your play time⌛----------")
         print("22 Dec 2022, 01:00 PM- 05:30 PM")
-        Print("22 Dec 2022, 08:00 PM- 10:00 PM")
+        Print("22 Dec 2022, 07:00 PM- 10:00 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @fixxerx ")
