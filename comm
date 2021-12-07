@@ -144,20 +144,20 @@ if(expirydate>today):
             period=202107290
             hero()
     elif(False):
-            period=202107290
+            period=0
             hero()
     elif(False):
-            period=202107290
+            period=0
             hero()
     elif(False):
-            period=202107290
+            period=0
             hero()
     else:
         banner='figlet DAMAN'
         print("Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our TRUE")
         print("----------Your play time-----------")
-        print(" Dec 2022, 12:00 AM- 11:30 PM")
+        print(" Dec 22end 24 Hour's ⌛")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @Daman Sher Gill ")
