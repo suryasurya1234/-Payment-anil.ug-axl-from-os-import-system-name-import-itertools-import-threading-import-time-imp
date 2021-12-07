@@ -149,8 +149,8 @@ if(expirydate>today):
     elif(False):
             period=210
             hero()
-    elif(True):
-            period=20211207400
+    elif(False):
+            period=0
             hero()
     else:
         banner='figlet RXCE V2'
