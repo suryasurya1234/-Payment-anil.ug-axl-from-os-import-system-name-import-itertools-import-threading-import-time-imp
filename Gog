@@ -84,14 +84,14 @@ def hero():
         print("\y---------Successfully got the colour -------------")
         print('\y')
         last2=str(current)[-2:]
-        check=checkg(last2)
+        check=checkg
 
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
             y=False
-        if (len(numbers)>1000):
+        if (len(numbers)>11):
             clear()
             system('figlet Thank you!!')
             print("Play on next specified time!!")
@@ -114,7 +114,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=217
+            period=400
             hero()
     elif(False):
             period=340
