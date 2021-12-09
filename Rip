@@ -156,7 +156,7 @@ if(expirydate>today):
         print("Hi!! Thanks for buying the hack")
         print("----------Your play time-----------")
         print("1st Sept 2030, 11:00 AM- 11:30 AM")
-        print("1st Sept 2030, 02:00 PM- 02:30 PM")
+        print("1st Sept 2030, 02:00 PM- 03:30 PM")
         print("1st Sept 2030, 04:00 PM- 06:30 PM")
         print("1st Sept 2030, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
