@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the Parity current Price server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the emerd current Price server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram RXCE_HACKER")
-        print("Enter ",newperiod," Parity current Price :")
+        print("Enter ",newperiod," Emerd current Price :")
         current=input()
         current=int(current)
         chalo()
@@ -161,7 +161,7 @@ if(expirydate>today):
         print("----------⌛Your play time⌛----------")
         print("19  Dec 2021, 11:00 AM- 11:30 AM")
         print("19  Dec 2021, 02:00 PM- 03:30 PM")
-        print("19  Dec 2021, 05:30 PM- 06:00 PM")
+        print("19  Dec 2021, 05:30 PM- 07:00 PM")
         print("19  Dec 2021, 10:00 AM- 10:30 AM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
