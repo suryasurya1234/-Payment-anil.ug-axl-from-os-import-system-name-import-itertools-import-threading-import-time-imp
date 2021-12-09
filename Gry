@@ -156,7 +156,6 @@ if(expirydate>today):
         print("Hi!! Thanks for buying the hack")
         print("----------Your play time-----------")
         print(" Yesterday Server Error , So Play today" )
-        print("    24 Hour's ⌛   ")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @smsn_knt ")
