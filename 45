@@ -41,7 +41,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']):
                 if done:
                     break
-                sys.stdout.write('\rgetting the colour wait --------- ' + c)
+                sys.stdout.write('\rgetting the parity colour wait --------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
