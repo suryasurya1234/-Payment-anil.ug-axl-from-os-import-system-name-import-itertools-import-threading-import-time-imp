@@ -135,7 +135,6 @@ if(expirydate>today and playday==today):
             hero()
     if(True):
             period=253
-             banner='figlet RXCE'
             #system(banner)
             #print("Server Overloading.....")
             #time.sleep(3)
