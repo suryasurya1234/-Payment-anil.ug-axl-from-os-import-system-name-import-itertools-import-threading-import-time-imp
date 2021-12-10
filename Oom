@@ -9,12 +9,10 @@ import sys
 import datetime
 from base64 import b64decode,b64encode
 from datetime import date
-
-expirydate = datetime.date(2022, 12, 19)
+expirydate = datetime.date(2021, 12, 19)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
-
     def chalo():
         done = False
         #here is the animation
@@ -26,14 +24,11 @@ def hero():
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
-
         t = threading.Thread(target=animate)
         t.start()
-
         #long process here
         time.sleep(20)
         done = True
-
     def chalo1():
         done = False
         #here is the animation
@@ -45,14 +40,11 @@ def hero():
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
-
         t = threading.Thread(target=animate)
         t.start()
-
         #long process here
         time.sleep(20)
         done = True
-
     def clear():
         # for windows
         if name == 'nt':
@@ -60,7 +52,6 @@ def hero():
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-
     clear()
     y=1
     newperiod=period
@@ -126,8 +117,6 @@ def hero():
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @Hacker 6363")
             #print(numbers)
-
-
 if(expirydate>today):
     now = datetime.datetime.now()
     First = now.replace(hour=10, minute=55, second=0, microsecond=0)
@@ -138,7 +127,6 @@ if(expirydate>today):
     Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
     Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
-
     if (True):
             period=185
             hero()
@@ -160,9 +148,6 @@ if(expirydate>today):
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @Hacker 6363 ")
-
-
-
 else:
     banner='figlet RXCE'
     system(banner)
