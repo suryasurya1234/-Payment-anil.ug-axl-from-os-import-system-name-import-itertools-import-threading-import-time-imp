@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the Bcone server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.2)
             sys.stdout.write('\rDone!     ')
@@ -80,7 +80,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @HACK_RXCE")
-        print("Enter ",newperiod,"  Price :")
+        print("Enter ",newperiod," Bcone Price :")
         current=input()
         current=int(current)
         chalo()
@@ -107,7 +107,7 @@ def hero():
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
             y=False
-        if (len(numbers)>15):
+        if (len(numbers)>20):
             clear()
             system('figlet FINISH!!')
             print("Play on next specified time!!")
@@ -140,7 +140,7 @@ if(expirydate>today):
             period=340
             hero()
     elif(True):
-            period=0
+            period=450
             hero()
     else:
         banner='figlet COLOR PREDECTION'
@@ -148,10 +148,10 @@ if(expirydate>today):
         print("Hi!! Thanks for buying the hack")
         #print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
-        print("11th Oct 2021, 11:00 AM- 11:30 AM")
-        print("11th Oct 2021, 02:00 PM- 02:30 PM")
-        print("11th Oct 2021, 05:00 PM- 05:30 PM")
-        #print("31 Oct 2021, 08:00 PM- 08:30 PM")
+        print("19th December 2021, 11:00 AM- 11:30 AM")
+        print("19th December 2021, 02:00 PM- 02:30 PM")
+        print("19th December 2021, 05:00 PM- 05:30 PM")
+        #print("31 December 2021, 10:00 PM- 11:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
@@ -193,14 +193,14 @@ else:
         if(bhai==code):
             clear()
             print("----------Your play time-----------")
-            print("10th Oct 2021, 02:30 PM- 03:00 PM")
-            print("10th Oct 2021, 05:30 PM- 06:00 PM")
-            print("10th Oct 2021, 08:30 PM- 09:00 PM")
+            print("19th December 2021, 02:30 PM- 03:00 PM")
+            print("19th December 2021, 05:30 PM- 06:00 PM")
+            print("19th December 2021, 10:30 PM- 11:30 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
-            period=350
+            period=450
             hero()
             #period("Sorry too many people(>20) using hack in same time ")
             #sys.exit(" \n \n \n Contact on Telegram @RXCE_HACKER")
@@ -209,14 +209,14 @@ else:
             banner='figlet RXCE'
             system(banner)
             print("----------Your play time-----------")
-            print("11th Oct 2021, 04:00 PM- 04:30 PM")
-            print("11th Oct 2021, 06:00 PM- 06:30 PM")
-            print("11th Oct 2021, 08:00 PM- 08:30 PM")
+            print("19th December 2021, 04:00 PM- 04:30 PM")
+            print("19th December 2021, 06:00 PM- 06:30 PM")
+            print("19th December 2021, 10:00 PM- 11:30 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")
             print("wait.... starting....")
             time.sleep(20)
-            period=400
+            period=450
             #hero()
             period("Sorry too many people(>20) using hack in same time ")
             sys.exit(" \n \n \n Contact on Telegram @HACK_RXCE")
