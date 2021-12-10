@@ -88,7 +88,7 @@ def hero():
             return sum
         if i in thisway:
             m=getSum(current)
-            n=int(current)%10
+            n=int(current)%1000
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
                     print(newperiod+1," : ,🟢GREEN🟢")
@@ -101,7 +101,7 @@ def hero():
                     print(newperiod+1," : ,🟢GREEN🟢")
         if i in thatway:
             m=getSum(current)+1
-            n=int(current)%10
+            n=int(current)%1000
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
                     print(newperiod+1,": ,🔴RED🔴")
@@ -141,7 +141,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=202107310
+            period=0
             hero()
     elif(False):
             period=10
@@ -157,7 +157,7 @@ if(expirydate>today):
         print("Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our TRUE")
         print("----------Your play time-----------")
-        print(" Dec 07th 24 Hour's ⌛")
+        print(" Dec 07th No time all time play ⌛")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @Daman Sher Gill ")
