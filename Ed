@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the  server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the Emerd server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -41,7 +41,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']):
                 if done:
                     break
-                sys.stdout.write('\rgetting the colour wait --------- ' + c)
+                sys.stdout.write('\rgetting the Emerd colour wait --------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram RXCE_HACKER")
-        print("Enter ",newperiod," EMERD Price :")
+        print("Enter ",newperiod," EMERD Price Result :")
         current=input()
         current=int(current)
         chalo()
@@ -161,7 +161,7 @@ if(expirydate>today):
         print("19  Dec 2022, 07:00 AM- 07:30 AM")
         print("19  Dec 2022, 02:00 PM- 02:30 PM")
         print("19  Dec 2022, 05:00 PM- 05:30 PM")
-        print("19  Dec 2022, 09:00 PM- 09:30 PM")
+        print("19  Dec 2022, 09:30 PM- 10:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
