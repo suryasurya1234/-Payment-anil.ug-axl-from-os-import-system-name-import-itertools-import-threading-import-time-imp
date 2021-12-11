@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rconnecting to server for next colour--------- ' + c)
+                sys.stdout.write('\connecting to server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -41,7 +41,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']):
                 if done:
                     break
-                sys.stdout.write('\rgetting the colour wait --------- ' + c)
+                sys.stdout.write('\getting the colour wait --------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @RXCE_HACKER")
-        print("Enter ",newperiod," SAPRE Price :")
+        print("Enter ",newperiod," sapre  Price :")
         current=input()
         current=int(current)
         chalo()
@@ -91,14 +91,14 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : ,GREEN")
+                    print(newperiod+0," : ,GREEN")
                 else:
-                    print(newperiod+1," : ,RED")
+                    print(newperiod+0," : ,RED")
             else:
                 if current in numbers:
-                    print(newperiod+1," : ,RED")
+                    print(newperiod+0," : ,RED")
                 else:
-                    print(newperiod+1," : ,GREEN")
+                    print(newperiod+0," : ,GREEN")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
@@ -141,7 +141,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=310
+            period=0
             hero()
     elif(False):
             period=280
@@ -160,7 +160,7 @@ if(expirydate>today):
         print(" Dec 2021, 11:00 AM- 11:30 AM")
         print(" Dec 2021, 03:30 PM- 04:30 PM")
         print(" Dec 2021, 05:30 PM- 06:00 PM")
-        print(" Dec 2021, 08:00 PM- 08:30 PM")
+        print(" Dec 2021, 09:30 PM- 11:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
