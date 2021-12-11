@@ -91,27 +91,27 @@ def hero():
             n=int(current)%100
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperod+100," : ,🟢GREEN🟢")
+                    print(newperod+10000," : ,🟢GREEN🟢")
                 else:
-                    print(newperiod+100," : ,🔴RED🔴")
+                    print(newperiod+10000," : ,🔴RED🔴")
             else:
                 if current in numbers:
-                    print(newperiod+100," : ,🔴RED🔴")
+                    print(newperiod+10000," : ,🔴RED🔴")
                 else:
-                    print(newperiod+100," : ,🟢GREEN🟢")
+                    print(newperiod+10000," : ,🟢GREEN🟢")
         if i in thatway:
             m=getSum(current)+100
             n=int(current)%100
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+100,": ,🔴RED🔴")
+                    print(newperiod+10000,": ,🔴RED🔴")
                 else:
-                    print(newperiod+100,": ,🟢GREEN🟢")
+                    print(newperiod+10000,": ,🟢GREEN🟢")
             else:
                 if current in numbers:
-                    print(newperiod+100,": ,🟢GREEN🟢")
+                    print(newperiod+10000,": ,🟢GREEN🟢")
                 else:
-                    print(newperiod+100,": ,🔴RED🔴")
+                    print(newperiod+10000,": ,🔴RED🔴")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -154,11 +154,10 @@ if(expirydate>today):
             hero()
     else:
         banner='figlet RXCE V 2.0'
-        print("Hi!! Thanks for buying the hack")
-        print("Hi! thanks for trying our DEMO")
+        print("Hi!! Thanks for buying the hack") 
         print("----------Your play time-----------")
         print(" December 2021, 06:00 AM- 12:00 AM")
-        print(" December 2021, 02:00 PM- 02:30 PM")
+        print(" December 2021, 02:00 PM- 05:00 PM")
         print(" December 2021, 05:30 PM- 06:00 PM")
         print(" December 2021, 08:00 PM- 11:30 PM")
         print("Please play on the given time, and ")
