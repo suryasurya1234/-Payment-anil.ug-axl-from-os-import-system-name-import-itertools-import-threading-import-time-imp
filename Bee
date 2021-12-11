@@ -118,7 +118,7 @@ def hero():
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
             y=False
-        if (len(numbers)>50):
+        if (len(numbers)>11):
             clear()
             system('figlet Thank you!!')
             print("Play on next specified time!!")
@@ -157,10 +157,10 @@ if(expirydate>today):
         print("Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
-        print(" December 2021, 07:00 AM- 11:30 AM")
+        print(" December 2021, 06:00 AM- 12:00 AM")
         print(" December 2021, 02:00 PM- 02:30 PM")
         print(" December 2021, 05:30 PM- 06:00 PM")
-        print(" December 2021, 08:00 PM- 08:30 PM")
+        print(" December 2021, 08:00 PM- 11:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
