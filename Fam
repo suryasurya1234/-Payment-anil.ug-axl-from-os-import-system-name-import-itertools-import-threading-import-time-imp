@@ -91,14 +91,14 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : RED")
+                    print(newperiod+1," : VIOLET")
                 else:
                     print(newperiod+1," : GREEN")
             else:
                 if current in numbers:
                     print(newperiod+1," : GREEN")
                 else:
-                    print(newperiod+1," : RED")
+                    print(newperiod+1," : VIOLET")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
@@ -106,12 +106,12 @@ def hero():
                 if current in numbers:
                     print(newperiod+1,": RED")
                 else:
-                    print(newperiod+1,": GREEN")
+                    print(newperiod+1,": VIOLET")
             else:
                 if current in numbers:
                     print(newperiod+1,": GREEN")
                 else:
-                    print(newperiod+1,": RED")
+                    print(newperiod+1,": VIOLET")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -141,7 +141,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=23, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=20211207420
+            period=0
             hero()
     elif(now>First and now<Firstend):
             period=280
