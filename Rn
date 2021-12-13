@@ -10,7 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 12, 29)
+expirydate = datetime.date(2021, 12, 14)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -31,7 +31,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(10)
+        time.sleep(5)
         done = True
 
     def chalo1():
@@ -50,7 +50,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(20)
+        time.sleep(5)
         done = True
 
     def clear():
@@ -64,7 +64,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCE V 2.0'
+    banner='figlet RXCE 5.o'
     thisway=[2,6,8,11,12,15,16,18,19,20]
     thatway=[1,3,4,5,7,9,10,14,13,17]
     numbers=[]
@@ -72,8 +72,8 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @RXCE_HACKER")
-        print("Enter ",newperiod," Parity current period :")
+        print("Contact me on telegram @tusharma3")
+        print("Enter" ,newperiod,"Price :")
         current=input()
         current=int(current)
         chalo()
@@ -91,27 +91,27 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : 🟢GREEN🟢💥")
-                elif:
-                    print(newperiod+1," : 🟢GREEN🟢💥")
-            True:
+                    print(newperiod+1," : 💥🔴RED🔴💥")
+                else:
+                    print(newperiod+1," : 💥🟢GREEN🟢💥")
+            else:
                 if current in numbers:
-                    print(newperiod+1," : 🔴RED🔴💥")
-                True:
-                    print(newperiod+1," : 🔴RED🔴💥")
+                    print(newperiod+1," :  💥🟢GREEN🟢💥")
+                else:
+                    print(newperiod+1," : 💥🔴RED🔴💥")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": 🔴RED🔴💥💥l")
-                True:
-                    print(newperiod+1,": 🔴RED🔴💥")
-            True:
+                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
+                else:
+                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
+            else:
                 if current in numbers:
-                    print(newperiod+1,": 🟢GREEN🟢💥")
-                True:
-                    print(newperiod+1,": 🟢GREEN🟢💥")
+                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
+                else:
+                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -123,7 +123,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @RXCE_HACKER")
+            sys.exit(" \n \n \n Contact on Telegram @tusharma3")
             print(numbers)
   
 
@@ -132,13 +132,15 @@ def hero():
 if(expirydate>today):
     now = datetime.datetime.now()
     First = now.replace(hour=10, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
+    Firstend = now.replace(hour=11, minute=59, second=0, microsecond=0)
     Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
-    Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
-    Third = now.replace(hour=17, minute=25, second=0, microsecond=0)
-    Thirdend = now.replace(hour=18, minute=0, second=0, microsecond=0)
+    Secondend = now.replace(hour=14, minute=59, second=0, microsecond=0)
+    Third = now.replace(hour=17, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=18, minute=59, second=0, microsecond=0)
     Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
+    Finalend = now.replace(hour=20, minute=59, second=0, microsecond= 0)
+    FFinal = now.replace(hour=22, minute=55, second=0, microsecond= 0)
+    FFinalend = now.replace(hour=23, minute=59, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
             period=220
@@ -146,26 +148,35 @@ if(expirydate>today):
     elif(now>Second and now<Secondend):
             period=280
             hero()
-    elif(False):
-            period=0
+    elif(now>Third and now<Thirdend):
+            period=360
             hero()
-    elif(True):
-            period=0
+    elif(now>Final and now<Finalend):
+            period=400
+            hero()
+    elif(now>FFinal and now<FFinalend):
+            period=460
             hero()
     else:
-        banner='figlet RXCE V 2.O'
-        print("Hi!! Thanks for buying the hack") 
+        banner='figlet Rxce 5.o '
+        print("Hi!! Thanks for buying the hack")
+        print("----------Your play time-----------")
+        print(" 09:00 AM- 12:00 AM")
+        print(" 02:00 PM- 03:00 PM")
+        print(" 06:00 PM- 07:00 PM")
+        print(" 08:00 PM- 09:00 PM")
+        print(" 11:00 PM- 12:00 PM")
+        print("Please play on the given time, and ")
         print("If you think it is an error contact")
-        print(" admin on telegram @RXCE_HACKER ")
+        print(" admin on telegram @tusharma3 ")
 else:
-    banner='figlet RXCE V 2.0'
+    banner='figlet Thank '
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
-    print(" on telegram ----@RXCE_HACKER for activating")
+    print(" on telegram ----@tusharma3 for activating")
     print(" Recharge Amount :        Total limit " )
-    print(" 1.     1500 INR -------  15 Day (48 Games Daily ")
     print(" 2.     2000 INR -------  30 Days(1200 Games Daily ")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
-    print( "Msg me on telegram @RXCE_HACKER")
+    print( "Msg me on telegram @tusharma3")
