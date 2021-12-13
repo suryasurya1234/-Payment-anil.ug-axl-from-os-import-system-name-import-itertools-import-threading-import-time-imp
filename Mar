@@ -168,11 +168,10 @@ if(expirydate>today):
         print(" 11:00 PM- 12:00 PM")
         print("Please play on the given time, and ")
 else:
-    banner='figlet Thank '
+    banner='figlet Rxce 5.o '
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
-    print(" on telegram ----@tusharma3 for activating")
     print(" Recharge Amount :        Total limit " )
     print(" 2.     2000 INR -------  30 Days(12000 Games Daily ")
     print("*---------*----------*-------------*----------*")
