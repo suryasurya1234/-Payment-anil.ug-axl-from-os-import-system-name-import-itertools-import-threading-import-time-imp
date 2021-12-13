@@ -91,27 +91,27 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : 💥🔴RED🔴💥")
+                    print(newperiod+1," : GREEN🟢💥")
                 else:
-                    print(newperiod+1," : 💥🟢GREEN🟢💥")
+                    print(newperiod+1," : RED🔴💥")
             else:
                 if current in numbers:
-                    print(newperiod+1," : 💥🟢GREEN🟢💥")
+                    print(newperiod+1," : GREEN🟢💥")
                 else:
-                    print(newperiod+1," : 💥🔴RED🔴💥")
+                    print(newperiod+1," : RED🔴💥")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
+                    print(newperiod+1,": GREEN🟢💥💥")
                 else:
-                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
+                    print(newperiod+1,": RED🔴💥💥")
             else:
                 if current in numbers:
-                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
+                    print(newperiod+1,": GREEN🟢💥💥")
                 else:
-                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
+                    print(newperiod+1,": RED🔴💥💥")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -150,15 +150,15 @@ if(expirydate>today):
             period=0
             hero()
     elif(True):
-            period=403
+            period=171
             hero()
     else:
-        banner='figlet RXCE V2 O
+        banner='figlet RXCE V2
         print("Hi!! Thanks for buying the hack") 
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
 else:
-    banner='figlet RXCE'
+    banner='figlet RXCE V 2.0'
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
