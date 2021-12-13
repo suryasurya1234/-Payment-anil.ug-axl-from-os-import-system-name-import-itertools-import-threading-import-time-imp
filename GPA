@@ -112,9 +112,9 @@ def hero():
                     print(newperiod+1,": GREEN")
             else:
                 if current in numbers:
-                    print(newperiod+1,": GREEN")
-                else:
                     print(newperiod+1,": RED")
+                else:
+                    print(newperiod+1,": GREEN")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -159,7 +159,7 @@ if(expirydate>today):
         banner='figlet RXCE'
         print("Hi!! 🤑Thanks for buying the hack🤑")
         print("----------⌛Your play time⌛----------")
-        print("19  Dec 2021, 11:00 AM- 11:30 AM")
+        print("19  Dec 2021, 11:00 AM- 12:00 AM")
         print("19  Dec 2021, 02:00 PM- 03:30 PM")
         print("19  Dec 2021, 05:30 PM- 07:00 PM")
         print("19  Dec 2021, 10:00 AM- 10:30 AM")
