@@ -91,27 +91,27 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : GREEN🟢💥")
-                else:
-                    print(newperiod+1," : RED🔴💥")
-            else:
+                    print(newperiod+1," : 🟢GREEN🟢💥")
+                True:
+                    print(newperiod+1," : 🟢GREEN🟢💥")
+            True:
                 if current in numbers:
-                    print(newperiod+1," : GREEN🟢💥")
-                else:
-                    print(newperiod+1," : RED🔴💥")
+                    print(newperiod+1," : 🔴RED🔴💥")
+                True:
+                    print(newperiod+1," : 🔴RED🔴💥")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": GREEN🟢💥💥")
-                else:
-                    print(newperiod+1,": RED🔴💥💥")
-            else:
+                    print(newperiod+1,": 🔴RED🔴💥💥l")
+                True:
+                    print(newperiod+1,": 🔴RED🔴💥")
+            True:
                 if current in numbers:
-                    print(newperiod+1,": GREEN🟢💥💥")
-                else:
-                    print(newperiod+1,": RED🔴💥💥")
+                    print(newperiod+1,": 🟢GREEN🟢💥")
+                True:
+                    print(newperiod+1,": 🟢GREEN🟢💥")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -150,7 +150,7 @@ if(expirydate>today):
             period=0
             hero()
     elif(True):
-            period=171
+            period=0
             hero()
     else:
         banner='figlet RXCE V 2.O'
