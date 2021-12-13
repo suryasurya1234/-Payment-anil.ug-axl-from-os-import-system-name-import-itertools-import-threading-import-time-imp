@@ -167,8 +167,6 @@ if(expirydate>today):
         print(" 08:00 PM- 09:00 PM")
         print(" 11:00 PM- 12:00 PM")
         print("Please play on the given time, and ")
-        print("If you think it is an error contact")
-        print(" admin on telegram @tusharma3 ")
 else:
     banner='figlet Thank '
     system(banner)
