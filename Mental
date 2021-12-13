@@ -83,7 +83,7 @@ def hero():
         print("\n---------Successfully got the colour -------------")
         print('\n')
         last2=str(current)[-2:]
-        check=checkg(last2)
+        check=checkg
         if(newperiod%2==0):
             sum=getSum(current)+check
             if (sum%2==0):
@@ -130,7 +130,7 @@ if(expirydate>today):
             period=340
             hero()
     elif(True):
-            period=0
+            period=241
             hero()
     elif(False):
             period=360
@@ -143,7 +143,7 @@ if(expirydate>today):
         print("----------Your play time-----------")
         #print("31st Dec 2021, 11:00 AM- 11:30 AM")
         #print("31st Dec 2021, 02:00 PM- 02:30 PM")
-        print("23rd Dec 2021, 04:00 PM- 04:30 PM")
+        print("23rd Dec 2021, 09:00 PM- 011:30 PM")
         #print("31st Dec 2021, 08:00 PM- 10:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
@@ -154,4 +154,3 @@ if(expirydate>today):
 else:
     banner='figlet RXCE'
     system(banner)
-    print("*---------*----------*-------------*----------*") 
