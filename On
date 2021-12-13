@@ -10,7 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 12, 14)
+expirydate = datetime.date(2021, 12, 29)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -143,19 +143,19 @@ if(expirydate>today):
     FFinalend = now.replace(hour=23, minute=59, second=0, microsecond= 0)
 
     if (now>First and now<Firstend):
-            period=220
+            period=0
             hero()
     elif(now>Second and now<Secondend):
-            period=280
+            period=0
             hero()
     elif(now>Third and now<Thirdend):
-            period=360
+            period=0
             hero()
     elif(now>Final and now<Finalend):
-            period=400
+            period=0
             hero()
     elif(now>FFinal and now<FFinalend):
-            period=460
+            period=0
             hero()
     else:
         banner='figlet Rxce 5.o '
@@ -176,7 +176,7 @@ else:
     print("Your hack has expired--- Please contact")
     print(" on telegram ----@tusharma3 for activating")
     print(" Recharge Amount :        Total limit " )
-    print(" 2.     2000 INR -------  30 Days(1200 Games Daily ")
+    print(" 2.     2000 INR -------  30 Days(12000 Games Daily ")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
     print( "Msg me on telegram @tusharma3")
