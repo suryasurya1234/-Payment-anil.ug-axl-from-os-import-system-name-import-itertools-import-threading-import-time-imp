@@ -110,9 +110,9 @@ def hero():
                     print(newperiod+1,": GREEN")
             else:
                 if current in numbers:
-                    print(newperiod+1,": GREEN")
-                else:
                     print(newperiod+1,": RED")
+                else:
+                    print(newperiod+1,": GREEN")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -140,7 +140,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=20211209281
+            period=0
             hero()
     elif(False):
             period=280
