@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @tusharma3")
-        print("Enter" ,newperiod,"Price :")
+        print("Enter" ,newperiod," Parity Price :")
         current=input()
         current=int(current)
         chalo()
@@ -91,27 +91,27 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : 💥🔴RED🔴💥")
+                    print(newperiod+1," : RED")
                 else:
-                    print(newperiod+1," : 💥🟢GREEN🟢💥")
+                    print(newperiod+1," : RED")
             else:
                 if current in numbers:
-                    print(newperiod+1," :  💥🟢GREEN🟢💥")
+                    print(newperiod+1," : RED")
                 else:
-                    print(newperiod+1," : 💥🔴RED🔴💥")
+                    print(newperiod+1," : RED")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
+                    print(newperiod+1,": GREEN")
                 else:
-                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
+                    print(newperiod+1,": GREEN")
             else:
                 if current in numbers:
-                    print(newperiod+1,": 💥💥🔴RED🔴💥💥")
+                    print(newperiod+1,": GREEN")
                 else:
-                    print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
+                    print(newperiod+1,": GREEN")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -146,16 +146,16 @@ if(expirydate>today):
             period=0
             hero()
     elif(now>Second and now<Secondend):
-            period=0
+            period=100
             hero()
     elif(now>Third and now<Thirdend):
-            period=0
+            period=100
             hero()
     elif(now>Final and now<Finalend):
-            period=0
+            period=100
             hero()
     elif(now>FFinal and now<FFinalend):
-            period=0
+            period=100
             hero()
     else:
         banner='figlet Rxce 5.o '
@@ -165,7 +165,7 @@ if(expirydate>today):
         print(" 02:00 PM- 03:00 PM")
         print(" 06:00 PM- 07:00 PM")
         print(" 08:00 PM- 09:00 PM")
-        print(" 11:00 PM- 12:00 PM")
+        print(" 12:00 PM- 12:30 PM")
         print("Please play on the given time, and ")
 else:
     banner='figlet Rxce 5.o '
