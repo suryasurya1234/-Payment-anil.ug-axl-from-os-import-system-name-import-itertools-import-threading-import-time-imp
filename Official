@@ -96,7 +96,7 @@ def hero():
                     print(newperiod+1," : GREEN💚")
             else:
                 if current in numbers:
-                    print(newperiod+1," : GREEN")
+                    print(newperiod+1," : GREEN💚")
                 else:
                     print(newperiod+1," : RED🔴")
         if i in thatway:
