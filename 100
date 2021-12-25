@@ -96,9 +96,9 @@ def hero():
                     print(newperiod+1," : 💚,Green")
             else:
                 if current in numbers:
-                    print(newperiod+1," : 🔴")
-                else:
                     print(newperiod+1," : 💚,Green")
+                else:
+                    print(newperiod+1," : 🔴")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
