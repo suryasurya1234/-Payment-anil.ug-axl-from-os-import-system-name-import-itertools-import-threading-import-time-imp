@@ -96,9 +96,9 @@ def hero():
                     print(newperiod+1," : 💚,Green")
             else:
                 if current in numbers:
-                    print(newperiod+1," : 💚, Green")
-                else:
                     print(newperiod+1," : 🔴")
+                else:
+                    print(newperiod+1," : 💚,Green")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
@@ -149,7 +149,7 @@ if(expirydate>today):
             period=370
             hero()
     elif(True):
-            period=372
+            period=0
             hero()
     
 
@@ -161,7 +161,7 @@ else:
         print("You Have Purchased Basic Hack")
         print("To Upgrade To Pro V2 Contact Telegram")
         print("----------⌛Your Play time⌛----------")
-        print("5 Jan 2022, 11:00 AM- 11:30 AM")
+        print("5 Jan 2022, 08:00 AM- 11:30 AM")
         print("5 Jan 2022, 02:00 PM- 02:30 PM")
         print("5 Jan 2022, 05:42 PM- 08:AM PM")
         #print("5 Jan 2022, 06:37 PM- 08:30 AM")
