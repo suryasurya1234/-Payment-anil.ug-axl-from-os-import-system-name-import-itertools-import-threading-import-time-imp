@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the Bcone server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the Emerd server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @IDFCMONEY")
-        print("Enter ",newperiod," BCONE:")
+        print("Enter ",newperiod," EMERD:")
         current=input()
         current=int(current)
         chalo()
@@ -90,28 +90,28 @@ def hero():
             m=getSum(current)
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers:
-                    print(newperiod+1," : 🔴,Red")
+                if current in number:
+                    print(newperiod+1," : 🔴,RED")
                 else:
-                    print(newperiod+1," : 💚,Green")
+                    print(newperiod+1," : 💚,GREEN")
             else:
-                if current in numbers:
-                    print(newperiod+1," : 🔴,Red")
+                if current in number:
+                    print(newperiod+1," : 🔴,RED")
                 else:
-                    print(newperiod+1," : 💚,Green")
+                    print(newperiod+1," : 💚,GREEN")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
-                if current in numbers:
-                    print(newperiod+1,": 🔴,Red")
+                if current in number:
+                    print(newperiod+1,": 🔴,RED")
                 else:
-                    print(newperiod+1,": 💚,Green")
+                    print(newperiod+1,": 💚,GREEN")
             else:
-                if current in numbers:
-                    print(newperiod+1,": 🔴,Red")
+                if current in number:
+                    print(newperiod+1,": 🔴,RED")
                 else:
-                    print(newperiod+1,": 💚,Green")
+                    print(newperiod+1,": 💚,GREEN")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -149,7 +149,7 @@ if(expirydate>today):
             period=370
             hero()
     elif(True):
-            period=0
+            period=250
             hero()
     
 
@@ -158,13 +158,13 @@ if(expirydate>today):
 else:
         banner='figlet IDFC MaNTRI'
         print("Hi There,COLONEL IDFC here  ")
-        print("You Have Purchased Basic Hack")
+        print("You Have Purchased Hack")
         print("To Upgrade To Pro V2 Contact Telegram")
         print("----------⌛Your Play time⌛----------")
         print("5 Jan 2022, 08:00 AM- 11:30 AM")
         print("5 Jan 2022, 02:00 PM- 02:30 PM")
         print("5 Jan 2022, 05:42 PM- 08:AM PM")
-        #print("5 Jan 2022, 06:37 PM- 08:30 AM")
+        print("5 Jan 2022, 06:37 PM- 08:30 AM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @IDFCMONEY ")
