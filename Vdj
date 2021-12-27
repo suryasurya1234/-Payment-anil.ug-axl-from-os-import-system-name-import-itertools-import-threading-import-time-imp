@@ -65,9 +65,9 @@ def hero():
     y=1
     newperiod=period
     banner='figlet RXCE V 2.0'
-    thisway=[2,6,8,11,12,15,16,18,19,20]
-    thatway=[1,3,4,5,7,9,10,14,13,17]
-    numbers=[]
+    thisway=[2,4,6,8]
+    thatway=[1,3,5,7,9]
+    numbers=[0,2,4,6,8]
     i=1
     while(y):
         clear()
@@ -157,10 +157,10 @@ if(expirydate>today):
         print("Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
-        print("31st 2021, 11:00 AM- 11:30 AM")
-        print("31st 2021, 02:00 PM- 02:30 PM")
-        print("2nd  2021, 05:00 PM- 05:30 PM")
-        print("31st 2021, 08:00 PM- 08:30 PM")
+        print("31st 2022, 09:00 AM- 11:30 AM")
+        print("31st 2022, 02:00 PM- 02:30 PM")
+        print("2nd  2022, 05:00 PM- 05:30 PM")
+        print("31st 2022, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @rxcehack143 ")
