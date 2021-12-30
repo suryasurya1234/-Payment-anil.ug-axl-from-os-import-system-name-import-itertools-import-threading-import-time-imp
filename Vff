@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @rxcehack143")
-        print("Enter ",newperiod," Parity Price :")
+        print("Enter ",newprice," Parity Price :")
         current=input()
         current=int(current)
         chalo()
@@ -96,9 +96,9 @@ def hero():
                     print(newperiod+1," : GREEN💚")
             else:
                 if current in numbers:
-                    print(newperiod+1," : RED🔴")
+                    print(newperiod+1," : GREEN💚")
                 else:
-                    print(newperiod+1," : RED🔴")
+                    print(newperiod+1," : GREEN💚")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
@@ -109,9 +109,9 @@ def hero():
                     print(newperiod+1,": RED🔴")
             else:
                 if current in numbers:
-                    print(newperiod+1,": GREEN💚")
+                    print(newperiod+1,": RED🔴")
                 else:
-                    print(newperiod+1,": GREEN💚")
+                    print(newperiod+1,": RED🔴")
         i=i+1
         newperiod+=1
         numbers.append(current)
