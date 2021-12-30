@@ -65,8 +65,8 @@ def hero():
     y=1
     newperiod=period
     banner='figlet RXCE V 2.0'
-    thisway=[2,6,8,11,12,15,16,18,19,20]
-    thatway=[1,3,4,5,7,9,10,14,13,17]
+    thisway=[0,2,4,6,8]
+    thatway=[1,3,5,7,9]
     numbers=[]
     i=1
     while(y):
@@ -91,12 +91,12 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : REF🔴")
+                    print(newperiod+1," : GREEN💚")
                 else:
                     print(newperiod+1," : GREEN💚")
             else:
                 if current in numbers:
-                    print(newperiod+1," : GREEN💚")
+                    print(newperiod+1," : RED🔴")
                 else:
                     print(newperiod+1," : RED🔴")
         if i in thatway:
@@ -106,12 +106,12 @@ def hero():
                 if current in numbers:
                     print(newperiod+1,": REF🔴")
                 else:
-                    print(newperiod+1,": GREEN💚")
+                    print(newperiod+1,": RED🔴")
             else:
                 if current in numbers:
                     print(newperiod+1,": GREEN💚")
                 else:
-                    print(newperiod+1,": RED🔴")
+                    print(newperiod+1,": GREEN💚")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -159,7 +159,7 @@ if(expirydate>today):
         print("----------Your play time-----------")
         print("31st 2021, 11:00 AM- 11:30 AM")
         print("31st 2021, 02:00 PM- 02:30 PM")
-        print("2nd  2021, 05:00 PM- 05:30 PM")
+        print("2nd  2021, 05:00 PM- 07:30 PM")
         print("31st 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
