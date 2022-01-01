@@ -91,27 +91,27 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : ,🟢GREEN🟢")
+                    print(newperiod+1," : ,🔴RED🔴")
                 else:
                     print(newperiod+1," : ,🔴RED🔴")
             else:
                 if current in numbers:
                     print(newperiod+1," : ,🔴RED🔴")
                 else:
-                    print(newperiod+1," : ,🟢GREEN🟢")
+                    print(newperiod+1," : ,🔴RED🔴")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": ,🔴RED🔴")
+                    print(newperiod+1,": ,🟢GREEN🟢")
                 else:
                     print(newperiod+1,": ,🟢GREEN🟢")
             else:
                 if current in numbers:
                     print(newperiod+1,": ,🟢GREEN🟢")
                 else:
-                    print(newperiod+1,": ,🔴RED🔴")
+                    print(newperiod+1,": ,🟢GREEN🟢")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -155,12 +155,11 @@ if(expirydate>today):
     else:
         banner='figlet DAMAN'
         print("Hi!! Thanks for buying the hack")
-        print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
-        print(" sept 2021, 08:00 AM- 11:30 AM")
-        print(" sept 2021, 02:00 PM- 02:30 PM")
-        print(" Sept 2021, 05:30 PM- 06:00 PM")
-        print(" sept 2021, 08:00 PM- 08:30 PM")
+        print(" JAN 2021, 08:00 AM- 11:30 AM")
+        print(" JAN 2021, 02:00 PM- 02:30 PM")
+        print(" JAN 2021, 05:30 PM- 06:00 PM")
+        print(" JAN 2021, 07:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @Daman Sher Gill ")
