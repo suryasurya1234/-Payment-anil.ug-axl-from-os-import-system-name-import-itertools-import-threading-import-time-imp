@@ -65,7 +65,7 @@ def hero():
     y=1
     newperiod=period
     banner='figlet DAMAN'
-    thisway=[,02,4,6,8,10,12,14,16,18,20]
+    thisway=[0,2,4,6,8,10,12,14,16,18,20]
     thatway=[1,3,5,7,9,11,13,15,17,19]
     numbers=[]
     i=1
