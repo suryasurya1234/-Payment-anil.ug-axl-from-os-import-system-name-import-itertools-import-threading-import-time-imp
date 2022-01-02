@@ -93,10 +93,10 @@ def hero():
                 if current in numbers:
                     print(newperiod+1," : ,❤RED❤")
                 else:
-                    print(newperiod+1," : ,💚GREEN💚")
+                    print(newperiod+1," : ,❤RED❤")
             else:
                 if current in numbers:
-                    print(newperiod+1," : ,❤RED❤")
+                    print(newperiod+1," : ,💚GREEN💚")
                 else:
                     print(newperiod+1," : ,💚GREEN💚")
         if i in thatway:
@@ -106,10 +106,10 @@ def hero():
                 if current in numbers:
                     print(newperiod+1,": ,❤RED❤")
                 else:
-                    print(newperiod+1,": ,💚GREEN💚")
+                    print(newperiod+1,": ,❤RED❤")
             else:
                 if current in numbers:
-                    print(newperiod+1,": ,❤RED❤")
+                    print(newperiod+1,": ,💚GREEN💚")
                 else:
                     print(newperiod+1,": ,💚GREEN💚")
         i=i+1
