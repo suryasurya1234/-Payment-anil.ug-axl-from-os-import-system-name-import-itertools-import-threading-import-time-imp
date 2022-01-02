@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @Daman Sher Gill")
-        print("Enter ",newperiod," Parity Price :")
+        print("Enter ",newperiod," Parity :")
         current=input()
         current=int(current)
         chalo()
@@ -93,7 +93,7 @@ def hero():
                 if current in numbers:
                     print(newperiod+1," : ,❤RED❤")
                 else:
-                    print(newperiod+1," : ,❤RED❤")
+                    print(newperiod+1," : ,💚GREEN💚")
             else:
                 if current in numbers:
                     print(newperiod+1," : ,❤RED❤")
@@ -109,7 +109,7 @@ def hero():
                     print(newperiod+1,": ,💚GREEN💚")
             else:
                 if current in numbers:
-                    print(newperiod+1,": ,💚GREEN💚")
+                    print(newperiod+1,": ,❤RED❤")
                 else:
                     print(newperiod+1,": ,💚GREEN💚")
         i=i+1
@@ -155,7 +155,6 @@ if(expirydate>today):
     else:
         banner='figlet DAMAN'
         print("Hi!! Thanks for buying the hack")
-        print("Hi! thanks for trying our TRUE")
         print("----------Your play time-----------")
         print(" Jan 07th No time all time play ⌛")
         print("Please play on the given time, and ")
