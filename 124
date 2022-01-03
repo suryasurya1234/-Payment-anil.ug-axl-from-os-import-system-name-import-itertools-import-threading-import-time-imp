@@ -113,8 +113,6 @@ def hero():
                     print(newperiod+1,": GREEN💚")
                 else:
                     print(newperiod+1,": GREEN💚")
-                else:
-                    print(newperiod+1,": RED🔴") 
         i=i+1
         newperiod+=1
         numbers.append(current)
