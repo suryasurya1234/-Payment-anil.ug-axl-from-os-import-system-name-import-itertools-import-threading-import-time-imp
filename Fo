@@ -119,9 +119,9 @@ if(expirydate>today):
     Second = now.replace(hour=3, minute=25, second=0, microsecond=0)
     Secondend = now.replace(hour=5, minute=35, second=0, microsecond=0)
     Third = now.replace(hour=6, minute=55, second=0, microsecond=0)
-    Thirdend = now.replace(hour=, minute=35, second=0, microsecond=0)
-    Final = now.replace(hour=7, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=8, minute=35, second=0, microsecond=0)
+    Thirdend = now.replace(hour=7, minute=35, second=0, microsecond=0)
+    Final = now.replace(hour=8, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=9, minute=35, second=0, microsecond=0)
 
     if (now>Third and now<Thirdend):
             period=320
