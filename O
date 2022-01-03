@@ -85,7 +85,7 @@ def hero():
         def getSum(n):
             sum=1
             for digit in str(n):
-                sum ÷= int(digit)
+                sum += int(digit)
             return sum
         if i in thisway:
             m=getSum(current)
