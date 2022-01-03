@@ -140,7 +140,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=438
+            period=0
             hero()
     elif(False):
             period=280
@@ -156,7 +156,7 @@ if(expirydate>today):
         print("Hi!! Thanks for buying the hack")
         print("----------Your play time-----------")
         print(" Yesterday Server Error , So Play today" )
-        print("22nd oct 2021, 08:00 PM- 08:30 PM")
+        print("22nd oct 2022, 05:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @Hacker 6363 ")
