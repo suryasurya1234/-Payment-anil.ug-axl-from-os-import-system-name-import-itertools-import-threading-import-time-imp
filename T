@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# -*- coding: U+00D7 -*-
+# -*- coding: u+00D7 -*-
 
 from os import system, name
 import itertools
