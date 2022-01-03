@@ -1,5 +1,4 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
+# Payment anil.ug@axl
 
 from os import system, name
 import itertools
@@ -10,7 +9,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2022, 10, 22)
+expirydate = datetime.date(2022, 10, 10)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -64,21 +63,22 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet AMUSEBOX'
-    thisway=[0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50]
-    thatway=[1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49]
-    numbers=[]
+    banner='figlet RXCE'
+    m=0
     i=1
+    thisway=[1,2,4,6,7,8,15,14,16,17,18]
+    thatway=[3,5,9,10,11,12,13,19,20]
+    numbers=[]
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram RXCE_HACKER")
-        print("Enter ",newperiod," Bcone Price :")
+        print("Contact me on telegram @ Hacker 6363")
+        print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
-        chalo()
+        #chalo()
         print("\n---------Successfully hacked the server-----------")
-        chalo1()
+        #chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
         def getSum(n):
@@ -120,61 +120,50 @@ def hero():
             y=False
         if (len(numbers)>11):
             clear()
-            system('figlet Thank you馃!!')
-            print("Play on next specified time馃!!")
-            print("-----------鈴憋笍Current Time UP鈴憋笍----------")
-            sys.exit(" \n \n \n Contact on Telegram @HACK_RXCE")
+            system('figlet Thank you!!')
+            print("Play on next specified time!!")
+            print("-----------Current Time UP----------")
+            sys.exit(" \n \n \n Contact on Telegram @Hacker 6363")
             #print(numbers)
-  
-
 
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=13, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
-    Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
-    Secondend = now.replace(hour=16, minute=35, second=0, microsecond=0)
+    First = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
     Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
     Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
+    Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
-    if (False):
-            period=246
+    if (True):
+            period=438
             hero()
     elif(False):
             period=280
             hero()
     elif(False):
-            period=372
+            period=343
             hero()
-    elif(True):
-            period=186
+    elif(now>Final and now<Finalend):
+            period=400
             hero()
     else:
         banner='figlet RXCE'
-        print("Hi!! 馃Thanks for buying the hack馃")
-        print("----------鈱沋our play time鈱�----------")
-        print("5 Sept 2022, 11:00 AM- 11:30 AM")
-        print("5 Sept 2022, 02:00 PM- 02:30 PM")
-        print("5 Sept 2022, 05:42 PM- 08:AM PM")
-        print("5 Sept 2022, 09:30 PM- 11:30 AM")
+        print("Hi!! Thanks for buying the hack")
+        print("----------Your play time-----------")
+        print(" Yesterday Server Error , So Play today" )
+        print("22nd oct 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
-        print(" admin on telegram @RXCE_HACKER ")
-        (" Channel join krle bhosdke馃榿 @RXCE_HACKER ")
+        print(" admin on telegram @Hacker 6363 ")
 
 
 
 else:
     banner='figlet RXCE'
     system(banner)
-    print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
-    print(" on telegram ----@RXCE_HACKER for activating")
-    print(" Recharge Amount :        Total limit " )
-    print(" 1.     1000 INR -------  7 Day (280 Games")
-    print(" 2.     3000 INR -------  30 Days(1200 Games")
-    print("*---------*----------*-------------*----------*")
-    print("Your custom hack can be made request from us.")
+    print(" on telegram -----------@ Hacker 6363")
