@@ -159,12 +159,6 @@ if(expirydate>today):
             hero()
     else:
         banner='figlet Rxce 7.o '
-        print("Hi!! Thanks for buying Life time the hack")
-        print("----------Your play time-----------")
-        print("Please play on the given time, and ")
-        print("If you think it is an error contact")
-        print(" admin on telegram @Hackmgk ")
-else:
     banner='figlet Thank '
     system(banner)
     print("*---------*----------*-------------*----------*")
