@@ -69,7 +69,7 @@ def hero():
         check=0
         for digit in (n):
             if(int(digit)==0):
-                check=check+3
+                check=check+1
         return check
     clear()
     y=1
@@ -88,21 +88,21 @@ def hero():
         chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
-        last2=str(current)[-3:]
+        last2=str(current)[-1:]
         samjha_maadarchod=lawde_time_pe_khel(last2)
         if(newperiod%3==0):
             sum=getSum(current)
-            if(sum%3==0):
-                print(newperiod+1,"  : ❤,RED")
+            if(sum%1==0):
+                print(newperiod+1,"  : 💚,GREEN")
             else:
-                print(newperiod+1,"  : 💚 ,GREEN")
+                print(newperiod+1,"  : ❤ ,RED")
         else:
             sum=getSum(current)
-            if(sum%3==0):
+            if(sum%1==0):
                 print(newperiod+1,"  : ❤, RED")
             else:
                 print(newperiod+1,"  : 💚, GREEN")
-        newperiod+=3
+        newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
