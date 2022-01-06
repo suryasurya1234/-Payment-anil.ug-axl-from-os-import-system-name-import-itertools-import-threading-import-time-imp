@@ -88,11 +88,11 @@ def hero():
         chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
-        last2=str(current)[-2:]
+        last2=str(current)[-1:]
         samjha_maadarchod=lawde_time_pe_khel(last2)
-        if(newperiod%2==0):
+        if(newperiod%1==0):
             sum=getSum(current)
-            if(sum%2==0):
+            if(sum%1==0):
                 print(newperiod+1,"  : 💚,GREEN")
             else:
                 print(newperiod+1,"  : 💚 ,GREEN")
