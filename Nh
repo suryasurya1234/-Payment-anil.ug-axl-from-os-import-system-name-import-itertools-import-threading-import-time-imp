@@ -69,7 +69,7 @@ def hero():
     i=1
     thisway=[1,3,5,7,9,11,13,15,17,19]
     thatway=[2,4,6,8,10,12,14,16,18,20,]
-    numbers=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+    numbers=[]
     while(y):
         clear()
         system(banner)
@@ -149,7 +149,7 @@ if(expirydate>today):
             period=340
             hero()
     elif(True):
-            period=1
+            period=0
             hero()
     else:
         banner='figlet RXCE'
