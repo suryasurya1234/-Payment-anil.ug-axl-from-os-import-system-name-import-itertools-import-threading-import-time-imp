@@ -65,8 +65,8 @@ def hero():
     y=1
     newperiod=period
     banner='figlet RXCE'
-    thisway=[2,6,8,11,12,15,16,18,19,20]
-    thatway=[1,3,4,5,7,9,10,14,13,17]
+    thisway=[2,4,6,8,10,12,14,16,18,20]
+    thatway=[1,3,5,7,9,11,13,14,15,17,19]
     numbers=[]
     i=1
     while(y):
@@ -89,7 +89,7 @@ def hero():
         if i in thisway:
             m=getSum(current)
             n=int(current)%10
-            if((m%4==0 and n%2==0) or (m%4==1 and n%2==1)):
+            if((m%4==0 and n%0==0) or (m%4==1 and n%0==0)):
                 if current in numbers:
                     print(newperiod+1," : GREEN")
                 else:
@@ -102,7 +102,7 @@ def hero():
         if i in thatway:
             m=getSum(current)+4
             n=int(current)%10
-            if((m%4==0 and n%2==0) or (m%4==1 and n%2==1)):
+            if((m%4==0 and n%0==0) or (m%4==1 and n%0==0)):
                 if current in numbers:
                     print(newperiod+1,": GREEN")
                 else:
