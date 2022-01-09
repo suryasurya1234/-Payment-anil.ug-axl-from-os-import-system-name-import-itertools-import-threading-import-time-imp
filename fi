@@ -156,29 +156,3 @@ if(expirydate>today):
             hero()
     else:
         banner='figlet RXCE'
-        print("Hi!! 🤑Thanks for buying the hack🤑")
-        print("----------⌛Your play time⌛----------")
-        print("19  Oct 2021, 06:00 AM- 11:30 AM")
-        print("19  Oct 2021, 01:00 PM- 11:30 PM")
-        #print("19  Oct 2021, 05:30 PM- 06:00 PM")
-        #print("19  Oct 2021, 08:00 PM- 08:30 PM")
-        print("Please play on the given time, and ")
-        print("If you think it is an error contact")
-        print(" admin on telegram @RXCE_HACKER ")
-        ("Channel join krle bhosdke😁 @RXCE_HACKER")
-        print( "Msg me on telegram @RXCE_HACKER")
-        banner='figlet RXCE_HACKER'
-        print("play at your own risk please don't blame owner on any loss")
-      
-else:
-    banner='figlet RXCE'
-    system(banner)
-    print("*---------*----------*-------------*----------*")
-    print("Your hack has expired--- Please contact")
-    print(" on telegram ----@RXCE_HACKER for activating")
-    print(" Recharge Amount :        Total limit " )
-    print(" 1.     1000 INR -------  7 Day (280 Games")
-    print(" 2.     3000 INR -------  30 Days(1200 Games")
-    print("*---------*----------*-------------*----------*")
-    print("Your custom hack can be made request from us.")
-    print( "Msg me on telegram @RXCE_HACKER")
