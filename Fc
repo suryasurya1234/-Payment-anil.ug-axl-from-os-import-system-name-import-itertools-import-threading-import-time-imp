@@ -43,14 +43,14 @@ def hero():
                     break
                 sys.stdout.write('\rgetting the colour wait --------- ' + c)
                 sys.stdout.flush()
-                time.sleep(0.1)
+                time.sleep(0.5)
             sys.stdout.write('\rDone!     ')
 
         t = threading.Thread(target=animate)
         t.start()
 
         #long process here
-        time.sleep(100)
+        time.sleep(50)
         done = True
 
     def clear():
