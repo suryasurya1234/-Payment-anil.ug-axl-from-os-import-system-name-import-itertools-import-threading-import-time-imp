@@ -31,7 +31,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(10)
+        time.sleep(5)
         done = True
 
     def chalo1():
@@ -50,7 +50,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(20)
+        time.sleep(5)
         done = True
 
     def clear():
@@ -67,8 +67,8 @@ def hero():
     banner='figlet RXCE'
     m=0
     i=1
-    thisway=[1,2,4,6,7,8,15,14,16,17,18]
-    thatway=[3,5,9,10,11,12,13,19,20]
+    thisway=[1,2,4,6,7,8,15,14,16,17,18,21,23,25,27,29]
+    thatway=[3,5,9,10,11,12,13,19,20,22,24,26,28,30,136131]
     numbers=[]
     while(y):
         clear()
