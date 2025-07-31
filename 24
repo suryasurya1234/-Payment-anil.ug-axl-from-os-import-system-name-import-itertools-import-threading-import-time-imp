@@ -10,8 +10,8 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2025, 06, 10)
-#expirydate = datetime.date(2025, 8, 30)
+expirydate = datetime.date(2025, 08, 10)
+#expirydate = datetime.date(2025, 12, 30)
 today=date.today()
 def hero():
 
@@ -156,7 +156,7 @@ if(expirydate>today):
         print("Hi!! Thanks for buying the hack")
         print("----------Your play time-----------")
         #print(" Yesterday Server Error , So Play today" )
-        print("29nd Sept 2025, 011:00 PM- 08:30 AM")
+        print("29nd Sept 2025, 011:00 PM- 011:30 AM")
         print("29nd Sept 2025, 02:00 PM- 02:30 PM")
         print("29nd Sept 2025, 05:00 PM- 05:30 PM")
         print("Please play on the given time, and ")
